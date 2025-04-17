@@ -11,7 +11,7 @@ const ProjectList = () => {
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 container">
       {/* Header */}
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold">Meus Projetos</h2>

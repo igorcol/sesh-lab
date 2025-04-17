@@ -9,8 +9,8 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="h-16 border-b border-dark-100 bg-dark-300 sticky top-0 z-10 flex justify-center items-center">
-      <div className="container flex h-full items-center justify-between ">
+    <nav className="h-16 border-b border-dark-100 bg-dark-300 sticky top-0 z-10">
+      <div className="container ml-auto mr-auto flex h-full w-full items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Music className="h-6 w-6 text-neon" />
           <span className="text-xl font-bold tracking-tight">SeshLab</span>
