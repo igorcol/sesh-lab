@@ -11,7 +11,7 @@ const page = () => {
       {/* NAVBAR */}
       <Navbar/>
 
-      <main className='flex-1 container min-w-screen  py-8 px-20'>
+      <main className='flex-1 container min-w-screen  py-8 px-7 md:px-20'>
         {/* Project list */}
         <ProjectList/>
       </main>

@@ -15,7 +15,9 @@ const ProjectList = () => {
       {/* Header */}
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold">Meus Projetos</h2>
-        <div className="flex gap-2">
+
+        {/* Grid Btn */}
+        <div className="hidden sm:flex gap-2 ">
           <Button
             variant={viewMode === "grid" ? "default" : "outline"}
             size="icon"
